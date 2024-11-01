@@ -1,0 +1,27 @@
+{
+	"name": "shinobiworks/shinobi-reviews",
+	"description": "",
+	"type": "wordpress-plugin",
+	"license": "GPL-3.0-or-later",
+	"authors": [
+		{
+			"name": "Shinobi Works",
+			"email": "support@shinobiworks.com",
+			"homepage": "https://shinobiworks.com/"
+		}
+	],
+	"require": {
+		"php": ">=7.4",
+		"shinobiworks/core": "*"
+	},
+	"require-dev": {
+		"yoast/phpunit-polyfills": "^1.1",
+		"phpunit/phpunit": "^9.6",
+		"yoast/wp-test-utils": "^1.1"
+	},
+	"autoload": {
+		"psr-4": {
+			"Shinobi_Reviews\\": ""
+		}
+	}
+}

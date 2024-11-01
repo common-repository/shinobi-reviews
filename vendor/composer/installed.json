@@ -1,0 +1,55 @@
+{
+    "packages": [
+        {
+            "name": "shinobiworks/core",
+            "version": "1.0.4",
+            "version_normalized": "1.0.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/shinobiworks/core.git",
+                "reference": "94fb333a9f3eccd91154010213623724b8e12398"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/shinobiworks/core/zipball/94fb333a9f3eccd91154010213623724b8e12398",
+                "reference": "94fb333a9f3eccd91154010213623724b8e12398",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6"
+            },
+            "require-dev": {
+                "dealerdirect/phpcodesniffer-composer-installer": "^0.7.1",
+                "phpcompatibility/phpcompatibility-wp": "*",
+                "phpunit/phpunit": "7.*",
+                "wptrt/wpthemereview": "^0.2.1"
+            },
+            "time": "2021-03-29T07:55:10+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Shinobi_Works\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Shinobi Works",
+                    "email": "support@shinobiworks.com",
+                    "homepage": "https://shinobiworks.com/"
+                }
+            ],
+            "support": {
+                "issues": "https://github.com/shinobiworks/core/issues",
+                "source": "https://github.com/shinobiworks/core/tree/1.0.4"
+            },
+            "install-path": "../shinobiworks/core"
+        }
+    ],
+    "dev": false,
+    "dev-package-names": []
+}
